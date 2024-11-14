@@ -49,23 +49,10 @@ nav a {
     transition: background-color 0.3s, color 0.3s;
 }
 
-
-nav a:link {
-    color: #007bff;
-}
-
-nav a:visited {
-    color: #5500cc;
-}
-
 nav a:hover {
     background-color: #555;
     border-radius: 5px;
     color: #f0f0f0;
-}
-
-nav a:active {
-    color: #ff0000;
 }
 
 .content {
@@ -119,9 +106,34 @@ nav a:active {
     color: #555;
 }
 
-footer {
-    background-color: #333;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
+.image-description a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.image-description a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content {
+        padding: 0 15px;
+        margin-top: 150px; 
+    }
+
+    footer nav {
+        flex-direction: column;
+    }
 }
