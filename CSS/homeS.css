@@ -96,7 +96,7 @@ footer {
 }
 
 
-a[href*="about"] {
+a[href*="nav"] {
     color: green;
 }
 
