@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cpf</title>
+    <title>C.P.F</title>
     <link rel="stylesheet" href="homeS.css">
 </head>
 <body>
+ 
     <header>
         <h1>C.P.F</h1>
         <nav>
@@ -17,46 +18,51 @@
         </nav>
     </header>
 
-    <div class="content">
-        <div class="video-container">
-            <video controls src="diddy.mp4"></video>
-        </div>
-        <div class="images-container">
-            <div class="image-item">
-                <img src="image1.png" alt="Image 1">
-                <div class="image-description">
-                    <a href="image1.html">Description for Image 1</a>
-                </div>
-            </div>
-            <div class="image-item">
+  
+    <main class="content">
+     
+        <section class="video-container">
+            <video controls>
+                <source src="diddy.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+
+        <section class="audio-container">
+            <h2>Listen to Our Message</h2>
+            <audio controls>
+                <source src="audio-message.mp3" type="audio/mp3">
+                Your browser does not support the audio tag.
+            </audio>
+        </section>
+
+        <section class="images-container">
+            <figure class="image-item">
+                <img src="sprite.png" class="sprite-icon" alt="Icon 1">
+                <figcaption><a href="image1.html">Description 1</a></figcaption>
+            </figure>
+            <figure class="image-item">
                 <img src="image2.png" alt="Image 2">
-                <div class="image-description">
-                    <a href="image2.html">Description for Image 2</a>
-                </div>
-            </div>
-            <div class="image-item">
+                <figcaption><a href="image2.html">Description 2</a></figcaption>
+            </figure>
+            <figure class="image-item">
                 <img src="image3.png" alt="Image 3">
-                <div class="image-description">
-                    <a href="image3.html">Description for Image 3</a>
-                </div>
-            </div>
-            <div class="image-item">
-                <img src="image4.png" alt="Image 4">
-                <div class="image-description">
-                    <a href="image4.html">Description for Image 4</a>
-                </div>
-            </div>
-            <div class="image-item">
-                <img src="image5.png" alt="Image 5">
-                <div class="image-description">
-                    <a href="image5.html">Description for Image 5</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ClEWuCcGHeM?si=Q_CFuml5TJnL1Y-J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
+                <figcaption><a href="image3.html">Description 3</a></figcaption>
+            </figure>
+        </section>
+    </main>
+
+    
+    <section>
+        <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/ClEWuCcGHeM?si=Q_CFuml5TJnL1Y-J" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+        </iframe>
+    </section>
+
 
     <footer>
         <p>&copy; 2024 C.P.F. All rights reserved.</p>
