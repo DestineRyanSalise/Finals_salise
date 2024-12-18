@@ -44,7 +44,7 @@ nav a:active {
 }
 
 
-.video-container, .audio-container {
+.video-container{
     margin: 120px auto;
     text-align: center;
 }
